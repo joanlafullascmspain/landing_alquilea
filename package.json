@@ -1,0 +1,24 @@
+{
+  "name": "fotocasa-octopus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nahuel-scm/fotocasa-octopus.git"
+  },
+  "author": "",
+  "homepage": "https://github.com/nahuel-scm/fotocasa-octopus",
+  "devDependencies": {
+    "beep": "0.0.0",
+    "beepbeep": "^1.2.0",
+    "browser-sync": "^2.5.2",
+    "colors": "^1.0.3",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.2.0",
+    "node-sass": "^3.4.2",
+    "run-sequence": "^1.0.2"
+  }
+}
