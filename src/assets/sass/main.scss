@@ -1,7 +1,7 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'font-awesome.min.css';
+@import 'font-awesome.css';
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
 /*
@@ -852,16 +852,16 @@
 		}
 
 		&.special {
-			background-color: _palette(accent6, bg);
+			background-color: #6563a4;
 			box-shadow: none !important;
 			color: _palette(accent6, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent6, bg), 5) !important;
+				background-color: lighten(#6563a4, 5) !important;
 			}
 
 			&:active {
-				background-color: darken(_palette(accent6, bg), 5) !important;
+				background-color: darken(#6563a4, 5) !important;
 			}
 		}
 
@@ -904,7 +904,7 @@
 
 			&:before {
 				display: block;
-				color: _palette(accent2, bg);
+				color: #50d2c2;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -1065,7 +1065,7 @@
 					}
 
 					p {
-						color: _palette($p, fg);
+						color: #ffffff;
 					}
 				}
 			}
@@ -1234,7 +1234,8 @@
 		}
 
 		&.style1 {
-			@include wrapper(accent1);
+			//@include wrapper(accent1);
+			background-color: #50d2c2;
 		}
 
 		&.style2 {
@@ -1243,6 +1244,7 @@
 
 		&.style3 {
 			@include wrapper(accent5);
+			color: #ffffff;
 		}
 
 		&.style4 {
@@ -1546,7 +1548,7 @@
 			z-index: 1;
 
 			&:after {
-				background-image: url('images/arrow.svg');
+				background-image: url('../../images/arrow.svg');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
@@ -1794,7 +1796,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner2.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner3.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
